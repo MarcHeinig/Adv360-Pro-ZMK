@@ -32,14 +32,14 @@
         nvim_quit_file: nvim_quit_file {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ESC &kt LEFT_SHIFT &kp Z &kp Q>;
+            bindings = <&kp ESC &kp LEFT_SHIFT &kp Z &kp LSHIFT &kp Q>;
             label = "NVIM_QUIT_FILE";
         };
 
         nvim_write_quit: nvim_write_quit {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ESC &kt LEFT_SHIFT &kp Z &kp Z>;
+            bindings = <&kp ESC &kt LEFT_SHIFT &kp Z &kp LEFT_SHIFT &kp Z>;
             label = "NVIM_WRITE_QUIT";
         };
 
