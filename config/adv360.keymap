@@ -82,8 +82,8 @@
 &kp F1  &kp F2            &kp F3            &kp F4  &kp F5          &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8     &kp F9  &kp F10    &kp F11  &kp F12
 &trans  &nvim_quit_file   &nvim_write_file  &trans  &nvim_make_run  &trans  &none                                       &none   &trans  &kp RA(U)  &trans  &kp RA(O)  &trans   &trans
 &trans  &kp RA(A)         &kp RA(S)         &trans  &trans          &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans     &trans  &trans     &trans   &trans
-&trans  &trans            &trans            &trans  &trans          &trans                  &trans      &trans                  &trans  &trans     &trans  &trans     &trans   &trans
-&trans  &nvim_write_quit  &trans            &trans  &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans     &trans  &trans     &trans   &trans
+&trans  &nvim_write_quit  &trans            &trans  &trans          &trans                  &trans      &trans                  &trans  &trans     &trans  &trans     &trans   &trans
+&trans  &trans            &trans            &trans  &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans     &trans  &trans     &trans   &trans
             >;
         };
 
